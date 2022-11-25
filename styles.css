@@ -4,6 +4,10 @@
     overflow: none;
 }
 
+body {
+    overflow: none;
+}
+
 .hero{
     background-color: purple;
     text-align: center; 
