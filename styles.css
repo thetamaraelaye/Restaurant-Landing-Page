@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     box-sizing: border-box;
+    overflow: none;
 }
 
 .hero{
@@ -187,7 +188,9 @@ footer {
     float: right;
     display: block;
   }
-
+    body{
+        oveflow-x: none;
+      }
     .navbar.responsive {position: relative;}
     .navbar.responsive a.icon {
       position: absolute;
