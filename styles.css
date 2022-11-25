@@ -122,6 +122,10 @@
     width: 60vh;
 }
 
+.booking-section button {
+    margin-top: 20px;
+}
+
 footer {
     padding: 3%;
     text-align: center;
