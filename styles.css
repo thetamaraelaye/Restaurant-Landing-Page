@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-color: purple;
+    text-align: center; 
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+.navbar{
+    background-color: purple;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 16px;
+    font-size: 16px;
+    float: right;
+    display: block;
+}
+
+.navbar a:hover{
+    background-color: plum;
+    color: lightslategrey;
+}
+
+.logo{
+    float: left;
+    width: 70px;
+    height: 80px;
+}
+
+.navbar .icon{
+    display: none;
+}
+
+.big-header{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin: 24px;
+    color: aliceblue;
+    
+}
+
+.body-header {
+    font-size: 1.5rem;
+    color: purple;
+    max-height: 80px;
+    padding-bottom: 16px;
+}
+
+.hero-para {
+    font-size: 2rem;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.title-img {
+    margin: 20px auto;
+}
+
+
+.menu-sect{
+    background-color: aliceblue;
+    padding: 7% 10%;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    row-gap: 16px;
+    margin: auto;
+
+}
+
+.menu-item {
+    text-align: center;
+    max-width: 200px;
+    margin: 20px;
+}
+
+.food-img {
+    width: 200px;
+    height: 160px;
+}
+
+.description {
+    text-align: justify;
+    font-size: small;
+}
+
+
+.cta-btn {
+    background-color: purple;
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px;
+    border-radius: 60%;
+    border-style: none;
+}
+
+.div-btn {
+    text-align: center;
+}
+
+.booking-section{
+    background-color: plum;
+    text-align: center;
+    padding: 7%;
+}
+
+.booking-section img {
+    width: 60vh;
+}
+
+footer {
+    padding: 3%;
+    text-align: center;
+    background-color: purple;
+}
+
+.footer-header {
+    color: whitesmoke;
+}
+
+.fa {
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+  }
+  
+ 
+  .fa-twitter {
+    background: #55ACEE;
+  }
+
+  .fa-whatsapp{
+    background:#128c7e ;
+  }
+
+  .fa-instagram {
+    background: #3f729b;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+    float: right;
+    display: block;
+  }
+
+    .navbar.responsive {position: relative;}
+    .navbar.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+
+    }
+
+    .hero {
+        width: auto;
+    }
+
+    .big-header {
+        font-size: 2.5rem;
+        padding-top: 40px;
+    }
+
+    .hero-para {
+        font-size: 1.5rem;
+    }
+
+    .title-img {
+        margin: 30px auto 30px;
+    }
+
+    .menu-container {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .booking-section .hero-para{
+        font-size: 1.2rem;
+        padding: 20px;
+    }
+
+    .booking-section img {
+        width: auto;
+        padding: 4%;
+        margin-right: 5%;
+    }
+
+    .booking-section .cta-btn {
+        padding-top: 5%;
+    }
+
+    footer {
+        padding-top: 5%;
+    }
+
+    footer a {
+        width: 40px;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+
+  }
