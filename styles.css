@@ -108,6 +108,10 @@
     border-style: none;
 }
 
+.cta-btn:hover{
+    background-color: black;
+}
+
 .div-btn {
     text-align: center;
 }
